@@ -1,10 +1,721 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+    <meta charset="utf-8">
+
+    <meta property="og:title" content="Gaussian See, Gaussian Do: 3D Semantic Motion Transfer"/>
+    <meta property="og:url" content="https://yarinbekor.github.io/GSGD/"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+
+    <title>Gaussian See, Gaussian Do</title>
+    <!-- Google Analytics temporarily disabled -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ3PYPGJRH"></script> -->
+    <!-- <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PQ3PYPGJRH');
+    </script> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+    <link rel="icon" href="static/figures/dumbo_7.png" sizes="128x128">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
 </head>
+
 <body>
-  <h1>Hello, world!</h1>
-  <p>Welcome to my site hosted on GitHub Pages.</p>
+
+
+<section class="publication-header">
+    <div class="hero-body">
+        <div class="container is-max-widescreen">
+            <!-- <div class="columns is-centered"> -->
+            <div class="column has-text-centered">
+                <div class="publication-links" style="margin-top: -2.6rem; margin-bottom: 0.5rem;">
+                    <span class="link-block">
+                <a href="#!" class="external-link button is-normal is-rounded" id="open-bibtex">
+                  <span class="icon">
+                    <i class="fas fa-clipboard"></i>
+                  </span>
+                  <span>BibTeX</span>
+                </a>
+              </span>
+                    <span class="link-block">
+                <a href="https://orlitany.github.io/" target="_blank" class="external-link button is-normal is-rounded">
+                  <span class="icon">
+                    <img src="static/LITLABLogo 2.jpg" alt="LIT-lab Logo" style="width: 28px; height: 28px; object-fit: contain;">
+                  </span>
+                  <span>LIT-lab</span>
+                </a>
+              </span>
+                </div>
+                <h1 class="title is-1 publication-title">Gaussian See, Gaussian Do:<br>3D Semantic Motion Transfer</h1>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="publication-author-block">
+
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+
+        <div class="column has-text-centered" style="margin-top: -1.7rem;">
+              <div class="is-size-4 publication-authors">
+                <span class="author-block">SIGGRAPH Asia 2025</span>
+              </div>
+        </div>
+                    
+        <div class="column has-text-centered" style="margin-top: -1rem;">
+            <div class="is-size-4 publication-authors">
+                <span class="author-block">
+                    <a href="https://www.google.com/">Yarin Bekor</a><sup>1,*</sup>,</span>
+                <span class="author-block">
+                    <a href="https://www.google.com/">Gal Harari</a><sup>1,*</sup>,</span>
+                <span class="author-block">
+                    <a href="https://www.google.com/">Or Perel</a><sup>2,3,4</sup>,</span>
+                <span class="author-block">
+                    <a href="https://www.google.com/">Or Litany</a><sup>1,2</sup>
+                </span>
+            </div>
+        </div>
+
+        <div class="is-size-5 publication-authors" style="margin-top: -0.2rem;">
+            <span class="author-block"><sup>1</sup>&nbsp;Technion</span>
+            &nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>2</sup>&nbsp;NVIDIA</span>
+            &nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>3</sup>&nbsp;University of Toronto</span>
+            &nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>4</sup>&nbsp;Vector Institute</span>
+        </div>
+        <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>*</sup>Indicates Equal Contribution</span>
+        </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                <span class="link-block">
+                <a href="https://arxiv.org/" target="_blank" class="external-link button is-normal is-rounded">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper (Coming Soon)</span>
+                </a>
+              </span>
+
+                            <span class="link-block">
+                <a href="https://github.com" target="_blank"
+                   class="external-link button is-normal is-rounded">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code (Coming Soon)</span>
+              </a>
+              </span>
+
+                            <span class="link-block">
+                <a href="https://huggingface.co/" target="_blank"
+                   class="external-link button is-normal is-rounded">
+                <span class="icon">
+                    🤗
+                </span>
+                <span>Demo (Coming Soon)</span>
+              </a>
+              </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="teaser-video" class="hero teaser">
+    <div class="hero-body" >
+      <div class="container is-max-desktop">
+        <div class="column has-text-centered" style="margin-top: -0.2rem;">
+          <div class="video is-16by9" style="border-radius:16px; overflow:hidden;">
+            <iframe
+              class="has-ratio"
+              width="640"
+              height="360"
+              src="https://www.youtube.com/embed/rvAGVO_A9ig?loop=1&playlist=rvAGVO_A9ig"
+              title="Project video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <!-- <p class="is-size-6 has-text-grey mt-2">
+            <em>Short caption about the video (e.g., 3D semantic motion transfer demo).</em>
+          </p> -->
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="hero teaser"></section>
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <h2 class="subtitle has-text-centered" style="margin-top: -5.8rem;">
+                Our method extracts the semantic motion from a multi-view source video and applies it to a static target shape in a way that is semantically meaningful. For example, a flying bird to a cartoon elephant:
+            </h2>
+
+            <div class="columns is-centered">
+                <!-- Source column -->
+                <div class="column is-one-third">
+                    <div class="has-text-centered mb-4">
+                        <p><b>Source</b></p>
+                        <div class="mb-4 is-flex is-align-items-center">
+                            <p class="mr-2"><b>View 1</b></p>
+                            <img src="static/videos/bird/bird_only_213.75_new.gif" width="90%">
+                        </div>
+                        <div class="is-flex is-align-items-center">
+                            <p class="mr-2"><b>View 2</b></p>
+                            <img src="static/videos/bird/bird_only_33.75_new.gif" width="90%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plus sign -->
+                <div class="column is-narrow is-flex is-align-items-center has-text-centered">
+                    <p class="is-size-2"><b>+</b></p>
+                </div>
+
+                <!-- Static Target column -->
+                <div class="column is-one-third has-text-centered">
+                    <p><b>Static 3DGS</b></p>
+                    <div class="is-flex justify-content-center is-align-items-center">
+                        <img src="static/videos/bird/rotating_static.gif" width="90%" style="margin-top: 80px;">
+                    </div>
+                </div>
+
+                <!-- Equal sign -->
+                <div class="column is-narrow is-flex is-align-items-center has-text-centered">
+                    <p class="is-size-2"><b>=</b></p>
+                </div>
+
+                <!-- Animated Target column -->
+                <div class="column is-one-third">
+                    <div class="has-text-centered mb-4">
+                        <p><b>Dynamic 3DGS</b></p>
+                        <div class="is-flex justify-content-center is-align-items-center" style="height: 100%;">
+                            <img src="static/videos/bird/dynamic_carousel_new.gif" width="90%" style="margin-top: 80px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="hero teaser">
+    <div class="container is-max-desktop" style="margin-top: -2.4rem;">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-centered" style="margin-top: -0.8rem;">
+                    <p>
+                        We present Gaussian See, Gaussian Do, a novel approach for semantic 3D motion transfer from multiview video. Our method enables rig-free, cross-category motion transfer between objects with semantically meaningful correspondence. Building on implicit motion transfer techniques, we extract motion embeddings from source videos via condition inversion, apply them to rendered frames of static target shapes, and use the resulting videos to supervise dynamic 3D Gaussian Splatting reconstruction. Our approach introduces an anchor-based view-aware motion embedding mechanism, ensuring cross-view consistency and accelerating convergence, along with a robust 4D reconstruction pipeline that consolidates noisy supervision videos. We establish the first benchmark for semantic 3D motion transfer and demonstrate superior motion fidelity and structural consistency compared to adapted baselines.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--/ Abstract. -->
+    </div>
+</section>
+
+<section class="section hero">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <div class="columns is-centered">
+                    <div class="column is-centered has-text-centered">
+                        <p><b>Source</b></p>
+                        <img src="static/videos/car/horse_only_90.00_new.gif" alt="Source" style="width: 100%; max-width: 100%;">
+                    </div>
+                    <div class="column is-centered has-text-centered">
+                        <p><b>Target</b></p>
+                        <img src="static/videos/car/car_only_90.0.gif" alt="Target" style="width: 100%; max-width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ Abstract. -->
+    </div>
+</section>
+
+<section class="section hero">
+    <div class="container is-max-desktop" style="margin-top: -8.4rem;">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">How does it work?</h2>
+                <div class="content has-text-centered" style="margin-top: -0.8rem;">
+                    <p>
+                        <strong>(1) Structured Multiview Motion Inversion.</strong> We start by using the Inversion method to extract Motion Embeddings from the source video, while using multiple Anchor Embeddings to ensure information sharing between angles:   
+                    </p>
+                </div>
+
+                <div class="has-text-centered" style="margin: 2rem 0; margin-top: -1.6rem;">
+                    <img src="carousel/Step1_1.gif" alt="Method explanation GIF" style="max-width: 100%; height: auto; border-radius: 8px;">
+                </div>
+
+                <div class="content has-text-centered" style="margin-top: -0.8rem;">
+                    <p>
+                        <strong> (2) View-aware Semantic Motion Transfer. </strong> We then apply the learned motion embeddings on multiple rendered views of the target object, resulting in a inconsistent, sparse set of 2D videos.
+                    </p>
+                </div>
+                <div class="has-text-centered" style="margin: 2rem 0;">
+                    <img src="carousel/Step2.gif" alt="Method explanation GIF" style="max-width: 100%; height: auto; border-radius: 8px;">
+                </div>
+                <div class="content has-text-centered" style="margin-top: -0.8rem;">
+                    <p>
+                        <strong>(3) 4D Consolidation.</strong> Our final step is a consolidation process, transforming the generated …supervisions into a 4D representation. We utilized a control points mechanism, while incorporating novel rotation constraint, resulting in a a smooth, temporally coherent dynamic 3D model. 
+                    </p>
+                </div>
+                <div class="has-text-centered" style="margin: 2rem 0;">
+                    <img src="carousel/Step3.png" alt="Method explanation GIF" style="max-width: 100%; height: auto; border-radius: 8px;">
+                </div>
+            </div>
+        </div>
+        <!--/ Abstract. -->
+    </div>
+</section>
+
+<!-- Results Gallery Section -->
+<section class="section hero">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Results</h2>
+                <!-- Video Grid -->
+                <div class="columns is-multiline">
+                    
+                    <div class="column is-full">
+                        <h3 class="title is-4 has-text-centered" style="margin: 2rem 0 1.5rem 0; color: #363636;">Semantic Transfer</h3>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/horse_-45.00.gif" alt="Extra Horse Rigged" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Target</h4>
+                            <img class="video-element" src="static/resultsgifs/extra_horse_rigged-ezgif.com-video-to-gif-converter.gif" alt="Extra Horse Rigged" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/resultsgifs/extra_semantic-Brian_StandingJump-ezgif.com-video-to-gif-converter.gif" alt="Semantic - Brian Standing Jump" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/extra_semantic-Brian_StandingJump-ezgif.com-video-to-gif-converter.gif" alt="Semantic - Brian Standing Jump" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/tree_0.00.gif" alt="Semantic - Falling Tree" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/extra_semantic-falling_tree-ezgif.com-video-to-gif-converter.gif" alt="Semantic - Falling Tree" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-full">
+                        <h3 class="title is-4 has-text-centered" style="margin: 2rem 0 1.5rem 0; color: #363636;">Real-world Scenes</h3>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/panther_-45.00.gif" alt="Human to Other - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Target</h4>
+                            <img class="video-element" src="static/resultsgifs/in_the_wild-black_panther-ezgif.com-video-to-gif-converter.gif" alt="Human to Other - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/flag_45.0.gif" alt="Semantic - Flag" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Target</h4>
+                            <img class="video-element" src="static/resultsgifs/extra_semantic-flag-ezgif.com-video-to-gif-converter.gif" alt="Semantic - Flag" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+
+                    <!-- Animal Motions Section -->
+                    <div class="column is-full">
+                        <h3 class="title is-4 has-text-centered" style="margin: 2rem 0 1.5rem 0; color: #363636;">Animal Motion Transfer</h3>
+                    </div>
+                    
+                    <!-- Animal Motions -->
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/panther_-45.00.gif" alt="Animal Motions - Black Panther" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/animal_motions-black_panther-ezgif.com-video-to-gif-converter.gif" alt="Animal Motions - Black Panther" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/polar_bear_-45.00.gif" alt="Animal Motions - Polar Bear" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/animal_motions-polar_bear-ezgif.com-video-to-gif-converter.gif" alt="Animal Motions - Polar Bear" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Extra Horse Rigged -->
+                    
+                    <!-- Semantic Motion Transfer Section -->
+                    
+                    
+                    <!-- Semantic Results -->
+                    
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/resultsgifs/extra_semantic-common_dolphin-ezgif.com-video-to-gif-converter.gif" alt="Semantic - Common Dolphin" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/extra_semantic-common_dolphin-ezgif.com-video-to-gif-converter.gif" alt="Semantic - Common Dolphin" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                
+                    
+                    <!-- Horse Rigged Game Ready -->
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4> 
+                            <img class="video-element" src="static/sources_gifs/horse_-45.00.gif" alt="Horse Rigged Game Ready" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/horse_riggedgame_ready-ezgif.com-video-to-gif-converter.gif" alt="Horse Rigged Game Ready" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <!-- Human Motion Transfer Section -->
+                    <div class="column is-full">
+                        <h3 class="title is-4 has-text-centered" style="margin: 2rem 0 1.5rem 0; color: #363636;">Human Motion Transfer</h3>
+                    </div>
+                    
+                    <!-- Human to Human Like -->
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/breakdance_ready_0.0.gif" alt="Human to Human Like - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/human_to_human_like-Brian_BreakdanceReady-ezgif.com-video-to-gif-converter.gif" alt="Human to Human Like - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <!-- Human to Human -->
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/breakdance_ready_0.0.gif" alt="Human to Human - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/human_to_human-Brian_BreakdanceReady-ezgif.com-video-to-gif-converter.gif" alt="Human to Human - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/walking_0.0.gif" alt="Human to Human - Brian Walking" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/human_to_human-Brian_Walking_Fixed-ezgif.com-video-to-gif-converter.gif" alt="Human to Human - Brian Walking" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <!-- Human to Other -->
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/breakdance_ready_0.0.gif" alt="Human to Other - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/human_to_other-Brian_BreakdanceReady-ezgif.com-video-to-gif-converter.gif" alt="Human to Other - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Source Motion</h4>
+                            <img class="video-element" src="static/sources_gifs/walking_0.0.gif" alt="Human to Other - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+                        <div class="video-card">
+                            <h4 class="subtitle is-6 has-text-black mb-2">Animated Targets</h4>
+                            <img class="video-element" src="static/resultsgifs/human_to_other-Brian_Walking-ezgif.com-video-to-gif-converter.gif" alt="Human to Other - Brian Breakdance" style="width: 100%; border-radius: 8px;" loading="lazy">
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- BibTeX -->
+
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
+            placeholder
+        </code></pre>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <!--  <div class="container">
+       <div class="content has-text-centered">
+         <a class="icon-link"
+         href="https://homes.cs.washington.edu/~kpar/nerfies/videos/nerfies_paper.pdf">
+         <i class="fas fa-file-pdf"></i>
+       </a>
+       <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+         <i class="fab fa-github"></i>
+       </a>
+     </div> -->
+    <div class="columns is-centered">
+        <div class="column is-8">
+            <div class="content">
+                <p>
+                    This website is licensed under a <a rel="license"
+                                                        href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                    Commons Attribution-ShareAlike 4.0 International License</a>.
+                </p>
+                <p>
+                    Website source code based on the <a href="https://nerfies.github.io/"> Nerfies</a> project page. If
+                    you want to reuse their <a
+                        href="https://github.com/nerfies/nerfies.github.io">source code</a>, please credit them
+                    appropriately.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var copyBibtexButton = document.getElementById('open-bibtex');
+        function getBibtexText() {
+            var codeEl = document.querySelector('#BibTeX pre code');
+            return codeEl ? codeEl.textContent.trim() : '';
+        }
+        function showToast(message, anchorEl) {
+            var toast = document.createElement('div');
+            toast.textContent = message;
+            toast.style.position = 'absolute';
+            toast.style.zIndex = '1000';
+            toast.style.background = '#4a4a4a';
+            toast.style.color = '#ffffff';
+            toast.style.fontSize = '0.9rem';
+            toast.style.lineHeight = '1.2';
+            toast.style.boxShadow = '0 8px 24px rgba(0,0,0,0.18)';
+            toast.style.borderRadius = '16px';
+            toast.style.padding = '6px 12px';
+            toast.style.opacity = '0';
+            toast.style.transform = 'translateY(-6px)';
+            toast.style.transition = 'opacity 150ms ease, transform 150ms ease';
+            toast.style.pointerEvents = 'none';
+
+            // Tail
+            toast.style.position = 'absolute';
+            var tail = document.createElement('div');
+            tail.style.position = 'absolute';
+            tail.style.top = '50%';
+            tail.style.right = '-8px';
+            tail.style.transform = 'translateY(-50%)';
+            tail.style.width = '0';
+            tail.style.height = '0';
+            tail.style.borderTop = '6px solid transparent';
+            tail.style.borderBottom = '6px solid transparent';
+            tail.style.borderLeft = '6px solid #4a4a4a';
+            toast.appendChild(tail);
+
+            document.body.appendChild(toast);
+
+            var anchorRect = (anchorEl || document.body).getBoundingClientRect();
+            // Position to the left of the anchor
+            toast.style.left = '-9999px';
+            toast.style.top = '0px';
+            // Measure after attaching
+            var bubbleRect = toast.getBoundingClientRect();
+            var top = window.pageYOffset + anchorRect.top + anchorRect.height / 2 - bubbleRect.height / 2 - 2.3;
+            var left = window.pageXOffset + anchorRect.left - bubbleRect.width - 12 - 4;
+            // Clamp to viewport
+            if (left < 8) { left = 8; }
+            toast.style.top = top + 'px';
+            toast.style.left = left + 'px';
+
+            requestAnimationFrame(function () {
+                toast.style.opacity = '1';
+                toast.style.transform = 'translateY(0)';
+            });
+            setTimeout(function () {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateY(-6px)';
+                setTimeout(function () { toast.remove(); }, 200);
+            }, 1600);
+        }
+        async function copyBibtex(evt) {
+            if (evt) evt.preventDefault();
+            var text = getBibtexText();
+            if (!text) {
+                showToast('No BibTeX available yet', copyBibtexButton);
+                return;
+            }
+            try {
+                await navigator.clipboard.writeText(text);
+                showToast('bibtex copied to clipboard!', copyBibtexButton);
+            } catch (e) {
+                var textarea = document.createElement('textarea');
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                try {
+                    document.execCommand('copy');
+                    showToast('bibtex copied to clipboard!', copyBibtexButton);
+                } catch (err) {
+                    showToast('Failed to copy BibTeX', copyBibtexButton);
+                } finally {
+                    textarea.remove();
+                }
+            }
+        }
+        if (copyBibtexButton) {
+            copyBibtexButton.addEventListener('click', copyBibtex);
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var sc_project = 12351448;
+    var sc_invisible = 1;
+    var sc_security = "c676de4f";
+</script>
+<script type="text/javascript"
+        src="https://www.statcounter.com/counter/counter.js"
+        async></script>
+<noscript>
+    <div class="statcounter"><a title="Web Analytics"
+                                href="https://statcounter.com/" target="_blank"><img
+            class="statcounter"
+            src="https://c.statcounter.com/12351448/0/c676de4f/1/"
+            alt="Web Analytics"></a></div>
+</noscript>
+<!-- End of Statcounter Code -->
+
 </body>
 </html>
